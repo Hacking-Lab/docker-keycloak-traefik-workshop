@@ -2,7 +2,7 @@ version: '2'
 services:
 
   ttyd:
-    image: hackinglab/hl-kali-docker-ttyd
+    image: hackinglab/alpine-ttyd-hl
     networks:
       transit_ttyd:
     labels:

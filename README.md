@@ -326,7 +326,7 @@ services:
       - --config=/etc/keycloak-gatekeeper.conf
 
   ttyd:
-    image: hackinglab/hl-kali-docker-ttyd
+    image: hackinglab/alpine-ttyd-hl
     networks:
       transit_ttyd:
     labels:
